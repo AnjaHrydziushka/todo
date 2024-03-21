@@ -36,7 +36,7 @@ export const TodoList = () => {
   };
 
   return (
-    <div>
+    <div className="main-container">
       <h1>ToDo List:</h1>
       <ul>
         {todo.map((entry) => {

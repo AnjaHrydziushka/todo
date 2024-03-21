@@ -1,0 +1,35 @@
+* {
+  background-color: bisque;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  height: 40px;
+  width: 260px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+button {
+  background-color: rgb(141, 91, 67);
+  height: 30px;
+  width: 70px;
+  color: white;
+  border-radius: 5px;
+  border: 1px black solid;
+}
